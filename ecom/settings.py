@@ -28,8 +28,8 @@ SECRET_KEY = os.environ.get(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DJANGO_DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = ['.vercel.app', 'localhost', '127.0.0.1']
-CSRF_TRUSTED_ORIGINS = ['https://*.vercel.app']
+ALLOWED_HOSTS = ['.vercel.app', 'tryon.innovelous.com', 'localhost', '127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://*.vercel.app', 'https://tryon.innovelous.com']
 
 # Application definition
 
